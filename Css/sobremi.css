@@ -1,0 +1,56 @@
+.sobremi{
+    align-items: center;
+    justify-content: center;   
+}
+.container-sobremi{
+    display: flex;
+    width: 100%;
+    padding: 6rem;
+    line-height: 2.5rem;
+    font-size: large;
+    color: rgb(215, 219, 230);
+    gap: 9rem;
+    align-items: center;
+}
+.img-perfil{
+    border-radius: 40%;
+    margin-left: 5cap;
+}
+
+/*celular*/
+@media (max-width: 767px) {
+    .container-sobremi{
+        width: 100%;
+        padding: 2rem;
+        margin-top: 1rem;
+        line-height: 2.5rem;
+        font-size: small;
+        flex-direction: column;
+    }
+}
+
+/*tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sobremi{
+        width: 75%;
+    }
+    .container-sobremi{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+    }
+}
+
+/*Escritorio* */
+@media (min-width: 1024px) {
+    .sobremi{
+        width: 75%;
+    }
+    
+}.container-sobremi{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}

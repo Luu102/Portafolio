@@ -1,0 +1,16 @@
+.contactos{
+    display: flex;
+    flex-direction: center;
+    padding: 2rem;
+    color: azure;
+}
+.container-contactos{
+    width: 100%;
+    line-height: 2.5rem;
+    font-size: large;
+    margin: 3rem;
+    flex-direction: column;
+}
+a{
+    color: aliceblue;
+}
